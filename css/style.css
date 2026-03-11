@@ -357,8 +357,6 @@ ul.header-top li a:hover {
 .hero-left-line {position: absolute;bottom: -150px;left: 0;right: auto; height: 98%;width: 88%;}
 .hero-right-line img {width: 100%;height: 100%;}
 .hero-left-line img {width: 100%;height: 100%;}
-
-
 /* **** hero **** */
 
 /* **** service-wrp **** */
@@ -373,7 +371,6 @@ ul.header-top li a:hover {
 .service-right ul li::before { position: absolute; top: 50%; transform: translateY(-50%); left: 8px; content: ''; border: 2px solid #2585BB; width: 12px; height: 12px; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; background-color: transparent; } 
 .btn-gradient { margin-top: 28px; width: 100%; max-width: 460px; text-align: center; display: inline-block; background: linear-gradient(90deg, #A7C7DA 0%, #4C9ED8 100%); padding: 10px 20px; color: #fff; border-radius: 12px; font-family: "Stem"; font-weight: 300; font-size: 28px; -webkit-border-radius: 12px; -moz-border-radius: 12px; -ms-border-radius: 12px; -o-border-radius: 12px; transition: 0.3s ease all; -webkit-transition: 0.3s ease all; -moz-transition: 0.3s ease all; -ms-transition: 0.3s ease all; -o-transition: 0.3s ease all; } 
 .btn-gradient:hover { background: linear-gradient(90deg, #4C9ED8 0%, #A7C7DA 100%); }
-
 /* **** service-wrp **** */
 
 
@@ -485,10 +482,6 @@ ul.header-top li a:hover {
   position: absolute;content: ''; top: 0;bottom: 0;left: 0;right: auto;width: 34%;
   background-color: #70a8c7;
 }
-
-/* .about-main.colored-bg .col-left {
-  background-color: #70a8c7;
-} */
 
 .about-main.colored-bg .col-right {
   background-color: #dff0fa;
