@@ -24,13 +24,25 @@ $(document).ready(function () {
   /* **** End AOS **** */
 
   window.addEventListener("scroll", function () {
-    const section = document.querySelector(".parallax-img");
-    const rect = section.getBoundingClientRect();
-    const offset = rect.top * 0.1; // 0.3 = slow speed
+    // const section = document.querySelector(".parallax-img");
+    // const rect = section.getBoundingClientRect();
+    // const offset = rect.top * 0.1; // 0.3 = slow speed
 
-    section.querySelectorAll("img").forEach((img) => {
-      img.style.transform = `translateY(${offset}px)`;
-    });
+    // section.querySelectorAll("img").forEach((img) => {
+    //   img.style.transform = `translateY(${offset}px)`;
+    // });
+    const section = document.querySelector(".parallax-img");
+
+    if (section) {
+      window.addEventListener("scroll", () => {
+        const rect = section.getBoundingClientRect();
+        const offset = rect.top * 0.1;
+
+        section.querySelectorAll("img").forEach((img) => {
+          img.style.transform = `translateY(${offset}px)`;
+        });
+      });
+    }
   });
 
   // ============================================== [ Init Logo Slider ] ==============================================

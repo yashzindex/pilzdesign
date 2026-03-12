@@ -91,9 +91,10 @@
 	.reach-bottom ul li a {font-size: 20px;}
 	
 	/* about */
+	.about-wrp {padding-top: 100px;}
 	.about-main .about-right { max-width: 760px; }
 	.about-main .about-left { max-width: 360px; }
-	.about-left .common-title { font-size: 36px; }
+	.about-left .common-title h2 { font-size: 36px; }
 	/* .about-main.colored-bg::after { width: 33%;} */
 
 	/* contact form */
@@ -152,9 +153,10 @@
 	.gallery-block { gap: 30px; }
 
 	/* about */
+	.about-wrp {padding-top: 80px;}
 	.about-main .about-right { max-width: 620px; }
 	.about-main .about-left { max-width: 295px; }
-	.about-left .common-title { font-size: 30px;margin-bottom: 50px; }
+	.about-left .common-title h2 { font-size: 30px;margin-bottom: 50px; }
 
 	/* reach us */
 	.reach-top .common-title h2 {font-size: 32px;}
@@ -245,12 +247,11 @@
   	.center-shape-parent .center-circle-shape { top: 100px; width: 1130px; left: -500px; }
 
 	/* about */
+	.about-wrp {padding-top: 80px;}
 	.about-main.colored-bg::after { display: none;}
-	.about-main.colored-bg .col-left {
-  background-color: #70a8c7;
-}
+	.about-main.colored-bg .col-left { background-color: #70a8c7; }
 	.about-left img {max-width: 190px;}
-	.about-left .common-title { font-size: 30px;margin-bottom: 20px; }
+	.about-left .common-title h2 { font-size: 30px;margin-bottom: 20px; }
 	.about-main .about-right { max-width: 768px;margin: 0 auto;padding: 40px 20px; }
 	.about-main .about-left { max-width: 768px;margin: 0 auto;padding: 40px 20px; }
 
@@ -333,10 +334,13 @@
 	.center-shape-parent .center-circle-shape { top: 100px; width: 1400px; left: -700px; }
 
 	/* about */
+	.about-wrp {padding-top: 40px;}
 	.about-left img {max-width: 190px;}
-	.about-left .common-title { font-size: 28px;margin-bottom: 20px; }
-	.about-main .about-right { max-width: 555px;margin: 0 auto;padding: 40px 20px; }
-	.about-main .about-left { max-width: 555px;margin: 0 auto;padding: 40px 20px; }
+	.about-left .common-title h2 { font-size: 28px;margin-bottom: 20px; }
+	.about-main .about-right { max-width: 555px;margin: 0 auto;padding: 30px 20px; }
+	.about-main .about-left { max-width: 555px;margin: 0 auto;padding: 30px 20px; }
+	.about-main.colored-bg::after {display: none;}
+	.about-main.colored-bg .about-left { background-color: #70a8c7;}
 
 	/* reach us */
 	.reach-top .common-title h2 {font-size: 28px;}
@@ -378,8 +382,8 @@
 
 	/* about */
 	.about-left img {max-width: 190px;}
-	.about-left .common-title { font-size: 24px;margin-bottom: 20px; }
-	.about-main .about-right { max-width: 100%;margin: 0 auto;padding: 32px 12px; }
+	.about-left .common-title h2 { font-size: 24px;margin-bottom: 20px; }
+	.about-main .about-right { max-width: 100%;margin: 0 auto;padding: 32px 0px; }
 	.about-main .about-left { max-width: 100%;margin: 0 auto;padding: 32px 12px; }
 
 	/* reach us */
