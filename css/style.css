@@ -162,7 +162,7 @@ ul.header-top li a:hover {
 .navbar-light .navbar-nav { margin: 0 0 0 auto; }
 .navbar-light .navbar-nav li { margin-right: 50px; }
 .navbar-light .navbar-nav li:last-child { margin-right: 0; }
-.navbar-light .navbar-nav .nav-link { padding: 0px 0px 40px 0px; color: #434955; font-family: "Open Sauce"; font-weight: 400; font-size: 19px; text-transform: uppercase; position: relative; transition: 0.4s linear; -webkit-transition: 0.4s linear; }
+.navbar-light .navbar-nav .nav-link { padding: 0px 0px 28px 0px; color: #434955; font-family: "Open Sauce"; font-weight: 400; font-size: 19px; text-transform: uppercase; position: relative; transition: 0.4s linear; -webkit-transition: 0.4s linear; }
 .navbar-light .navbar-nav .nav-link i { margin: 0 0 0 5px; }
 .navbar-light .navbar-nav .nav-link:focus-visible { box-shadow: none; outline: none; }
 .navbar-light .navbar-nav .nav-link.active,
