@@ -196,7 +196,7 @@ ul.header-top li a:hover {
 /* **** End toggler **** */
 
 /* **** hero **** */
-.hero-wrp { /* overflow: hidden; */ margin-top: 130px; padding: 160px 0 40px 0; position: relative; min-height: 580px; display: flex; justify-content: center; align-items: center; } 
+.hero-wrp { /* overflow: hidden; */ margin-top: 130px; padding: 80px 0 40px 0; position: relative; min-height: 580px; display: flex; justify-content: center; align-items: center; } 
 .hero-wrp .container { height: 100%; } 
 .hero-main { height: 100%; text-align: center; position: relative; z-index: 5; } 
 .hero-main h1 { color: #fff; font-size: 40px; font-family: "Open Sauce"; font-weight: 500; }
