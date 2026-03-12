@@ -6,7 +6,7 @@ $(document).ready(function () {
   });
 
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 150) {
+    if ($(this).scrollTop() > 50) {
       $("header").addClass("nav-new");
     } else {
       $("header").removeClass("nav-new");

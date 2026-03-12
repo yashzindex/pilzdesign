@@ -220,9 +220,13 @@ ul.header-top li a:hover {
 .service-wrp { position: relative; padding: 0px 0 50px 0; } 
 .service-title { position: relative; width: 100%; max-width: 1060px; padding: 28px 20px 20px 20px; background: linear-gradient( 90deg, #0000 0%, #ffffff 28.5%, #ffffff 85.71%, #0000 100% ); margin: 0 auto 120px auto; } 
 .service-title h2 { width: 100%; max-width: 770px; margin: 0 auto; color: #8db9d3; font-size: 30px; font-family: "Open Sauce"; font-weight: 300; text-align: center; } 
-.service-left {width: 100%;height: 100%;padding-right: 220px;} 
+
+.service-left {width: 100%;height: 100%;padding-right: 40px;} 
+.service-left figure {height: 100%;width: 100%;}
+.service-left img {object-fit: cover; height: 100%; width: 100%; border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -ms-border-radius: 20px; -o-border-radius: 20px; } .service-right h2 { color: #000; font-family: "Open Sauce"; font-weight: 500; font-size: 32px; } 
+
 .service-right {width: 100%;height: 100%;} 
-.service-left img { height: 100%; width: 100%; border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -ms-border-radius: 20px; -o-border-radius: 20px; } .service-right h2 { color: #000; font-family: "Open Sauce"; font-weight: 500; font-size: 32px; } 
+.service-right {padding-left: 80px;}
 .service-right ul { margin-top: 28px; } 
 .service-right ul li { color: #868686; position: relative; padding-left: 36px; font-family: "Open Sauce"; font-weight: 500; margin-bottom: 8px; } 
 .service-right ul li::after { position: absolute; top: 50%; transform: translateY(-50%); left: 4px; content: ''; border: 2px solid #2585BB; width: 20px; height: 20px; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; background-color: transparent; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); } 

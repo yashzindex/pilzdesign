@@ -61,7 +61,8 @@
 
 	/* service */
 	.service-title {margin: 0 auto 100px auto;}
-	.service-grid .service-left { padding-right: 80px; }
+	.service-grid .service-left { padding-right: 0px; }
+	.service-right { padding-left: 40px; }
 
 	/* Partners Section */
 	.partners .swiper-slide { width: 120px; }
@@ -138,6 +139,7 @@
 	/* service */
 	.service-title {margin: 0 auto 80px auto;}
 	.service-grid .service-left { padding-right: 0px; }
+	.service-right { padding-left: 20px; }
 	.service-title h2 {font-size: 28px;}
 	.service-right h2 {font-size: 28px;}
 
@@ -228,6 +230,7 @@
 	/* service */
 	.service-title {margin: 0 auto 60px auto;}
 	.service-grid .service-left { padding-right: 0px; margin-bottom: 40px;}
+	.service-right {padding-left: 0;}
 	.service-title h2 {font-size: 28px;}
 	.service-right h2 {font-size: 28px; margin-top: 40px;}
 
@@ -303,6 +306,7 @@
 	.service-title {margin: 0 auto 60px auto;}
 	.service-grid .service-left { padding-right: 0px; margin-bottom: 40px;}
 	.service-title h2 {font-size: 26px;}
+	.service-right {padding-left: 0;}
 	.service-right h2 {font-size: 26px; margin-top: 40px;}
 
 	/* Partners Section */
