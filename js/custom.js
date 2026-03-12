@@ -23,6 +23,10 @@ $(document).ready(function () {
   });
   /* **** End AOS **** */
 
+
+  // ============================================== [ Init Fancybox ] ==============================================
+  $("[data-fancybox]").fancybox();
+
   window.addEventListener("scroll", function () {
     // const section = document.querySelector(".parallax-img");
     // const rect = section.getBoundingClientRect();
@@ -109,6 +113,4 @@ $(document).ready(function () {
   }
   initReferencesSlider();
 
-  // ============================================== [ Init Fancybox ] ==============================================
-  Fancybox.bind("[data-fancybox]", {});
 });
