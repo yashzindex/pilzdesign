@@ -23,7 +23,6 @@ $(document).ready(function () {
   });
   /* **** End AOS **** */
 
-
   // ============================================== [ Init Fancybox ] ==============================================
   $("[data-fancybox]").fancybox();
 
@@ -82,11 +81,30 @@ $(document).ready(function () {
   }
   initLogoSlider();
 
+  // ============================================== [ service Slider ] ==============================================
+  function initServiceImageSlider() {
+    new Swiper(".serviceImageSlider", {
+      slidesPerView: 1,
+      effect: "fade",
+      loop: true,
+      speed: 1000,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+    });
+  }
+
+  initServiceImageSlider();
   // ============================================== [ Init References Slider ] ==============================================
   function initReferencesSlider() {
     let referencesSlider = new Swiper(".referencesSlider", {
       slidesPerView: 1,
       spaceBetween: 30,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
       breakpoints: {
         0: {
           slidesPerView: 1.3,
@@ -112,5 +130,4 @@ $(document).ready(function () {
     });
   }
   initReferencesSlider();
-
 });

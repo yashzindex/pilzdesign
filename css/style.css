@@ -195,7 +195,7 @@ ul.header-top li a:hover {
 /* **** End toggler **** */
 
 /* **** hero **** */
-.hero-wrp { /* overflow: hidden; */ margin-top: 130px; padding: 80px 0 40px 0; position: relative; min-height: 580px; display: flex; justify-content: center; align-items: center; } 
+.hero-wrp { overflow: hidden; margin-top: 130px; padding: 80px 0 40px 0; position: relative; min-height: 580px; display: flex; justify-content: center; align-items: center; } 
 .hero-wrp .container { height: 100%; } 
 .hero-main { height: 100%; text-align: center; position: relative; z-index: 5; } 
 .hero-main h1 { color: #fff; font-size: 40px; font-family: "Open Sauce"; font-weight: 500; }
@@ -205,12 +205,12 @@ ul.header-top li a:hover {
 .hero-bg img { height: 100%; width: 100%; object-fit: cover; object-position: top; } 
 
 /* round shape */
-.hero-shape { position: absolute; top: -150px; bottom: -35%; right: 0; width: 70%; z-index: -2; }
-.hero-shape img {height: 100%; width: 100%;}
+.hero-shape { position: absolute; top: -150px;  right: 0%; width: 60%;  z-index: -2; overflow: hidden;}
+.hero-shape img {width: 100%;height: 100%;}
 
 /* lines */
 .hero-right-line {position: absolute;top: -150px;right: 0;left: auto;bottom: 20%; width: 39%;}
-.hero-left-line {position: absolute;bottom: -150px;left: 0;right: auto; height: 98%;width: 88%;}
+.hero-left-line {position: absolute;bottom: -150px;left: 0;right: auto; height: auto;width: 88%;}
 .hero-right-line img {width: 100%;height: 100%;}
 .hero-left-line img {width: 100%;height: 100%;}
 /* **** hero **** */
@@ -221,7 +221,7 @@ ul.header-top li a:hover {
 .service-title h2 { width: 100%; max-width: 770px; margin: 0 auto; color: #8db9d3; font-size: 30px; font-family: "Open Sauce"; font-weight: 300; text-align: center; } 
 
 .service-left {width: 100%;height: 100%;padding-right: 40px;} 
-.service-left figure {height: 100%;width: 100%;}
+.service-left figure,.service-left >* {height: 100%;width: 100%;}
 .service-left img {object-fit: cover; height: 100%; width: 100%; border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -ms-border-radius: 20px; -o-border-radius: 20px; } .service-right h2 { color: #000; font-family: "Open Sauce"; font-weight: 500; font-size: 32px; } 
 
 .service-right {width: 100%;height: 100%;} 
@@ -315,7 +315,7 @@ ul.header-top li a:hover {
 .contact-main form .btn-main { margin-top: 30px; background-color: #609fc3; color: #fff; font-size: 20px; font-family: "stem"; padding: 10px 24px; text-transform: uppercase; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; border: none; outline: none; } 
 .contact-main form .btn-main:hover { background-color: #384b74; }
 
-.contact-bg  { position: absolute; top: 0; right: 0; width: 30%; height: 70%; z-index: -1; }
+.contact-bg { position: absolute; top: -15%; right: -15%; width: 40%;  z-index: -1; }
 .contact-bg img {width: 100%;height: 100%;}
 /* **** contact **** */
 
@@ -378,3 +378,42 @@ footer { position: relative; background: linear-gradient(90deg, #384b74 0%, #70a
 /* **** End Footer **** */
 
 /* footer */
+
+
+/* ****** animation css  ****** */
+.rotate-shape {
+  animation: rotateCircle 20s linear infinite;
+  -webkit-animation: rotateCircle 20s linear infinite;
+}
+
+@keyframes rotateCircle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotateline-reverce {
+  animation: rotateline-reverce 20s linear infinite;
+  -webkit-animation: rotateline-reverce 20s linear infinite;
+}
+
+@keyframes rotateline-reverce {
+  from {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+  to {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+}
+/* ****** animation css  ****** */
