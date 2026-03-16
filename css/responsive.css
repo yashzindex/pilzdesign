@@ -40,6 +40,19 @@
 
 @media(min-width:1600px) and (max-width:1699px){
 	.about-main.colored-bg::after { width: 38%;}
+
+	.about-right {
+    position: relative;
+    z-index: 1;
+    padding: 160px 0 40px 68px;
+	}
+}
+
+
+@media(min-width:1600px) {
+.nav-new .navbar-brand img {
+	height: auto;
+}
 }
 
 @media(min-width:1200px) and (max-width:1600px){
@@ -178,7 +191,7 @@
 }
 
 /* **** Menu **** */
-@media(max-width:1193px){	
+@media(max-width:1199px){	
 	.navbar-collapse{ position: fixed; left: -100%; top: 0; min-height: 100vh; background: #fff; height: 100%; width: 100%; padding: 80px 0 20px; -webkit-transition: all 0.3s linear; transition: all 0.3s linear; }	
 	header{padding: 20px 0;}
 	ul.header-top{display: block;}

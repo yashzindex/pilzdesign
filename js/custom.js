@@ -1,4 +1,6 @@
 $(document).ready(function () {
+
+
   /* **** AOS **** */
   AOS.init({
     duration: 1000,
@@ -6,7 +8,7 @@ $(document).ready(function () {
   });
 
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 50) {
+    if ($(this).scrollTop() > 10) {
       $("header").addClass("nav-new");
     } else {
       $("header").removeClass("nav-new");
@@ -130,4 +132,22 @@ $(document).ready(function () {
     });
   }
   initReferencesSlider();
+
+  $.scrollIt({
+    upKey: 38,
+    downKey: 40,
+    easing: 'linear',
+    scrollTime: 600,
+    activeClass: 'active',
+    topOffset: -78
+  });
+  $('.btn-nav').on('click', function (e) {
+    e.preventDefault();
+
+    var target = $('#request-a-quote');
+
+    $('html, body').animate({
+      scrollTop: target.offset().top - 78
+    }, 600);
+  });
 });

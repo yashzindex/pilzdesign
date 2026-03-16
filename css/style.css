@@ -142,13 +142,18 @@ header.nav-new { border: none; background-color: #fff; }
 .navbar .container .navbar-brand,
 .navbar .container-fluid .navbar-brand {
   margin-left: 0;
+  transition:0.4s ease-in-out ;
+  -webkit-transition:0.4s ease-in-out ;
+  -moz-transition:0.4s ease-in-out ;
+  -ms-transition:0.4s ease-in-out ;
+  -o-transition:0.4s ease-in-out ;
 }
-.navbar-brand { float: none; height: auto; padding: 0; }
-.navbar-brand img { max-width: 100%; height: 85px; }
+.navbar-brand { float: none; height: auto; padding: 0; transition: 0.4s ease-in-out; -webkit-transition: 0.4s ease-in-out; -moz-transition: 0.4s ease-in-out; -ms-transition: 0.4s ease-in-out; -o-transition: 0.4s ease-in-out; }
+.navbar-brand img { max-width: 100%; height: 85px; transition:0.4s ease-in-out ;}
 .navbar { background: transparent; position: relative; width: 100%; left: 0; top: 0; border: none; border-radius: 0; margin: 0; padding: 0; z-index: 120; transition: 0.4s linear; -webkit-transition: 0.4s linear; }
 .nav-row { display: flex; align-items: center; justify-content: flex-end; width: 100%; }
 .header-nav-left { display: flex; flex-flow: column; }
-ul.header-top { padding-bottom: 30px; display: flex; align-items: center; justify-content: end; }
+ul.header-top { padding-bottom: 30px; display: flex; align-items: center; justify-content: end; transition:0.4s ease-in-out ;}
 ul.header-top li { margin: 0 30px 0 0; width: 30px; transition: 0.4s linear; -webkit-transition: 0.4s linear; }
 ul.header-top li img {height: 100%;width: 100%;}
 ul.header-top li:last-child {
@@ -417,3 +422,14 @@ footer { position: relative; background: linear-gradient(90deg, #384b74 0%, #70a
 }
 }
 /* ****** animation css  ****** */
+
+
+
+.nav-new .navbar-brand {
+      max-width: 200px;
+}
+  
+
+.nav-new ul.header-top {
+    padding-bottom: 16px;
+}

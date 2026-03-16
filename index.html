@@ -4,8 +4,8 @@
 <head>
     <!-- Meta tag -->
     <meta charset="utf-8">
-    <meta name="description" content="World-Class Chiropractic Care in Newton Massachusetts">
-    <meta name="keywords" content="World-Class Chiropractic Care in Newton Massachusetts">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
     <meta name="author" content="Mui Chiropractic">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -37,7 +37,8 @@
         <header>
             <div class="container">
                 <nav class="navbar navbar-expand-xl navbar-light">
-                    <a class="navbar-brand" href="index.html"><img src="images/Logo-Blue.webp" alt="Logo" /></a>
+                    <a class="navbar-brand" href="index.html"><img src="images/Logo-Blue.webp" alt="Logo"
+                            class="img-fluid" /></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#NavbarToggle" aria-controls="NavbarToggle" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -64,10 +65,10 @@
                                         </a></li>
                                 </ul>
                                 <ul class="navbar-nav">
-                                    <li><a class="nav-link" href="#">Home</a></li>
-                                    <li class="dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">Leistungen <i
-                                                class="far fa-angle-down"></i></a>
+                                    <li><a class="nav-link" href="#" data-scroll-nav="0">Home</a></li>
+                                    <li class="dropdown"><a class="nav-link dropdown-toggle" href="#"
+                                            data-scroll-nav="1" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">Leistungen <i class="far fa-angle-down"></i></a>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="#">Sub-Item 1</a></li>
                                             <li><a class="dropdown-item" href="#">Sub-Item 2</a></li>
@@ -75,13 +76,11 @@
                                             <li><a class="dropdown-item" href="#">Sub-Item 4</a></li>
                                         </ul>
                                     </li>
-                                    <li><a class="nav-link" href="#">Technik</a></li>
-                                    <li><a class="nav-link" href="#">Über uns</a></li>
-                                    <li><a class="nav-link" href="#">Referenzen</a></li>
-                                    <li><a class="nav-link" href="#">Kontakt</a></li>
-                                    <li>
-                                        <a href="#" class="btn-nav">Angebot anfordern</a>
-                                    </li>
+                                    <li><a class="nav-link" href="#" data-scroll-nav="2">Technik</a></li>
+                                    <li><a class="nav-link" href="#" data-scroll-nav="3">Über uns</a></li>
+                                    <li><a class="nav-link" href="#" data-scroll-nav="4">Referenzen</a></li>
+                                    <li><a class="nav-link" href="#" data-scroll-nav="5">Kontakt</a></li>
+                                    <li> <a class="btn-nav" href="#request-a-quote" data-scroll-nav="6">Angebot anfordern</a> </li>
                                 </ul>
                             </div>
 
@@ -93,7 +92,7 @@
         <!-- End Header -->
 
         <!-- hero -->
-        <div class="hero-wrp">
+        <div class="hero-wrp" data-scroll-index="0">
             <div class="container">
                 <div class="hero-main">
                     <h1 data-aos="fade-up">Individuelle Salzkabinen für Hotels & Wellnessanlagen</h1>
@@ -120,10 +119,7 @@
         <div class="hero-shape">
             <img src="images/hero-shape.png" alt="hero-shape" class="img-fluid rotate-shape">
         </div>
-
         <!-- hero -->
-
-
 
         <!-- service -->
         <div class="service-wrp">
@@ -294,7 +290,7 @@
             </div>
 
             <!-- Highlight Section Start -->
-            <div class="highlight">
+            <div class="highlight" data-scroll-index="1">
                 <div class="container">
                     <div class="highlight-block">
                         <div class="common-title">
@@ -418,7 +414,7 @@
             <!-- References End -->
 
             <!-- FAQs Start -->
-            <div class="faqs">
+            <div class="faqs" data-scroll-index="2">
                 <div class="container">
                     <div class="faqs-block">
                         <div class="common-title">
@@ -496,7 +492,7 @@
         </div>
 
         <!-- Gallery Start -->
-        <div class="gallery">
+        <div class="gallery"  data-scroll-index="4">
             <div class="container">
                 <div class="gallery-block">
                     <div class="common-title">
@@ -576,7 +572,7 @@
         <!-- Gallery End -->
 
         <!-- about -->
-        <div class="about-wrp">
+        <div class="about-wrp"  data-scroll-index="3">
             <div class="container">
                 <div class="about-main">
                     <div class="row">
@@ -666,7 +662,7 @@
         <!-- about -->
 
         <!-- contact -->
-        <div class="contact-wrp">
+        <div class="contact-wrp" id="request-a-quote">
             <div class="container">
                 <div class="contact-main">
                     <div class="contact-title-box">
@@ -746,7 +742,7 @@
         <!-- contact -->
 
         <!-- reach us -->
-        <div class="reach-wrp">
+        <div class="reach-wrp"  data-scroll-index="5">
             <div class="reach-top">
                 <div class="container">
                     <div class="common-title">
@@ -850,15 +846,15 @@
     </div>
 
     <!-- script -->
-    <!-- script -->
-    <script src="js/jquery.js" defer></script>
+    <script src="js/jquery.js" ></script>
     <script src="js/aos.js" defer></script>
     <script src="js/swiper-bundle.min.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js" defer></script>
     <script src="js/bootstrap.bundle.min.js" defer></script>
+    <script src="js/scrollIt.min.js"></script>
     <script src="js/custom.js" defer></script>
     <!-- End script -->
-    <!-- End script -->
+
 </body>
 
 </html>
